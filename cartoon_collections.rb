@@ -12,8 +12,6 @@ end
 
 def find_the_cheese(ingredients)
   ingredients.find do |cheese|
-    return cheese
-  else
-    nil
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
   end
 end
