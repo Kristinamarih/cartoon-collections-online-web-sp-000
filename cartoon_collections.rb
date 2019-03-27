@@ -11,11 +11,6 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(ingredients)
-  ingredients.each do |snack|
- if ingredients.include?("cheddar" || "gouda" || "camembert")
-   return 
- else
-   nil
- end
+ if ingredients.find("cheddar" || "gouda" || "camembert")
   # cheese_types = ["cheddar", "gouda", "camembert"]
 end
