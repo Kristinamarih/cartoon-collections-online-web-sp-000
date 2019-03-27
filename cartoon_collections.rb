@@ -11,6 +11,6 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(ingredients)
- if ingredients.find("cheddar" || "gouda" || "camembert")
+ if ingredients.find{|cheese| "cheddar" || "gouda" || "camembert")
   # cheese_types = ["cheddar", "gouda", "camembert"]
 end
