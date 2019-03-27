@@ -11,7 +11,7 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(ingredients)
-  ingredients.find do
+  ingredients.find do |cheese|
     return cheese
   else
     nil
