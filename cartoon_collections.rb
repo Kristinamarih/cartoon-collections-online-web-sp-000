@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(ingredients)
   cheese = "cheddar" || "gouda" || "camembert"
-  if ingredients.include?(cheese)
+  if ingredients.include?(cheese) == true
     return cheese
   else
     nil
