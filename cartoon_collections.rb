@@ -11,7 +11,7 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(ingredients)
-  cheese = "cheddar" || "gouda" || "camembert"
+  cheese = "cheddar", "gouda", "camembert"
   if ingredients.include?(cheese) == true
     return cheese
   else
