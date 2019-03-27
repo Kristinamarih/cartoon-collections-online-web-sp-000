@@ -9,6 +9,10 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |call|
   planeteer_calls.include?(call.length > 4)
+      return true
+    else 
+      return false
+    end
   end
 end
 
