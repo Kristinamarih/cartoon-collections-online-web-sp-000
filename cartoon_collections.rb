@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |call|
-    if planeteer_calls.include? call.length > 4 
+    if planeteer_calls.include?(call.length > 4)
       return true
     else 
       return false
