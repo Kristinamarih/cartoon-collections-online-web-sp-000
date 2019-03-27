@@ -12,5 +12,6 @@ end
 
 def find_the_cheese(ingredients)
  if ingredients.find{|cheese| "cheddar" || "gouda" || "camembert"}
+ end
   # cheese_types = ["cheddar", "gouda", "camembert"]
 end
