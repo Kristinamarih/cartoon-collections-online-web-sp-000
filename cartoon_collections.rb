@@ -11,8 +11,9 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(strings)
+  strings.each do |snack|
  if strings.include?("cheddar" || "gouda" || "camembert")
-   return strings
+   return snack
  else
    nil
  end
